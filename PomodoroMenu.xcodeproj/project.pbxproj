@@ -8,18 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		3D69595F2C989C90003DBACB /* PomodoroMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69595E2C989C90003DBACB /* PomodoroMenuApp.swift */; };
-		3D6959612C989C90003DBACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959602C989C90003DBACB /* ContentView.swift */; };
 		3D6959632C989C92003DBACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6959622C989C92003DBACB /* Assets.xcassets */; };
 		3D6959662C989C92003DBACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6959652C989C92003DBACB /* Preview Assets.xcassets */; };
+		3D6959702C989D1E003DBACB /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69596F2C989D1E003DBACB /* TimerModel.swift */; };
+		3D6959722C989D43003DBACB /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959712C989D43003DBACB /* ProgressViews.swift */; };
+		3D6959742C989D65003DBACB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959732C989D65003DBACB /* SettingsView.swift */; };
+		3D6959782C98A248003DBACB /* PopoverContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959772C98A248003DBACB /* PopoverContentView.swift */; };
+		3D6959E92C9C898F003DBACB /* MenuBarLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959E82C9C898F003DBACB /* MenuBarLabelView.swift */; };
+		3D6959EB2C9C964D003DBACB /* alarm-clock-beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D6959EA2C9C964D003DBACB /* alarm-clock-beep.wav */; };
+		3D6959ED2C9CBD08003DBACB /* TimerCompletedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959EC2C9CBD08003DBACB /* TimerCompletedBanner.swift */; };
+		3D6959EF2C9CD30D003DBACB /* DurationSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959EE2C9CD30D003DBACB /* DurationSelector.swift */; };
+		3D6959F12C9CDF4E003DBACB /* ColorEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959F02C9CDF4E003DBACB /* ColorEXT.swift */; };
+		3D6959F32C9CEABE003DBACB /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6959F22C9CEABE003DBACB /* TimerView.swift */; };
+		3DEC23592C9CFB7D00F52FFB /* StartPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC23582C9CFB7D00F52FFB /* StartPauseButton.swift */; };
+		3DEC235B2C9CFBA200F52FFB /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC235A2C9CFBA200F52FFB /* ResetButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D69595B2C989C90003DBACB /* PomodoroMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D69595E2C989C90003DBACB /* PomodoroMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroMenuApp.swift; sourceTree = "<group>"; };
-		3D6959602C989C90003DBACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D6959622C989C92003DBACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6959652C989C92003DBACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D6959672C989C92003DBACB /* PomodoroMenu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PomodoroMenu.entitlements; sourceTree = "<group>"; };
+		3D69596F2C989D1E003DBACB /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		3D6959712C989D43003DBACB /* ProgressViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViews.swift; sourceTree = "<group>"; };
+		3D6959732C989D65003DBACB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3D6959772C98A248003DBACB /* PopoverContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverContentView.swift; sourceTree = "<group>"; };
+		3D69597B2C98C43A003DBACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3D6959E82C9C898F003DBACB /* MenuBarLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarLabelView.swift; sourceTree = "<group>"; };
+		3D6959EA2C9C964D003DBACB /* alarm-clock-beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "alarm-clock-beep.wav"; sourceTree = "<group>"; };
+		3D6959EC2C9CBD08003DBACB /* TimerCompletedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCompletedBanner.swift; sourceTree = "<group>"; };
+		3D6959EE2C9CD30D003DBACB /* DurationSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationSelector.swift; sourceTree = "<group>"; };
+		3D6959F02C9CDF4E003DBACB /* ColorEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEXT.swift; sourceTree = "<group>"; };
+		3D6959F22C9CEABE003DBACB /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		3DEC23582C9CFB7D00F52FFB /* StartPauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPauseButton.swift; sourceTree = "<group>"; };
+		3DEC235A2C9CFBA200F52FFB /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +75,22 @@
 		3D69595D2C989C90003DBACB /* PomodoroMenu */ = {
 			isa = PBXGroup;
 			children = (
+				3D69597B2C98C43A003DBACB /* Info.plist */,
 				3D69595E2C989C90003DBACB /* PomodoroMenuApp.swift */,
-				3D6959602C989C90003DBACB /* ContentView.swift */,
+				3D69596F2C989D1E003DBACB /* TimerModel.swift */,
+				3D6959E82C9C898F003DBACB /* MenuBarLabelView.swift */,
+				3D6959712C989D43003DBACB /* ProgressViews.swift */,
+				3D6959732C989D65003DBACB /* SettingsView.swift */,
+				3D6959772C98A248003DBACB /* PopoverContentView.swift */,
+				3DEC235A2C9CFBA200F52FFB /* ResetButton.swift */,
+				3DEC23582C9CFB7D00F52FFB /* StartPauseButton.swift */,
+				3D6959F02C9CDF4E003DBACB /* ColorEXT.swift */,
+				3D6959EE2C9CD30D003DBACB /* DurationSelector.swift */,
+				3D6959F22C9CEABE003DBACB /* TimerView.swift */,
+				3D6959EC2C9CBD08003DBACB /* TimerCompletedBanner.swift */,
 				3D6959622C989C92003DBACB /* Assets.xcassets */,
 				3D6959672C989C92003DBACB /* PomodoroMenu.entitlements */,
+				3D6959EA2C9C964D003DBACB /* alarm-clock-beep.wav */,
 				3D6959642C989C92003DBACB /* Preview Content */,
 			);
 			path = PomodoroMenu;
@@ -128,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6959662C989C92003DBACB /* Preview Assets.xcassets in Resources */,
+				3D6959EB2C9C964D003DBACB /* alarm-clock-beep.wav in Resources */,
 				3D6959632C989C92003DBACB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +175,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D6959612C989C90003DBACB /* ContentView.swift in Sources */,
+				3D6959F32C9CEABE003DBACB /* TimerView.swift in Sources */,
+				3D6959EF2C9CD30D003DBACB /* DurationSelector.swift in Sources */,
+				3D6959722C989D43003DBACB /* ProgressViews.swift in Sources */,
+				3D6959702C989D1E003DBACB /* TimerModel.swift in Sources */,
+				3DEC23592C9CFB7D00F52FFB /* StartPauseButton.swift in Sources */,
+				3D6959742C989D65003DBACB /* SettingsView.swift in Sources */,
+				3D6959ED2C9CBD08003DBACB /* TimerCompletedBanner.swift in Sources */,
+				3DEC235B2C9CFBA200F52FFB /* ResetButton.swift in Sources */,
+				3D6959782C98A248003DBACB /* PopoverContentView.swift in Sources */,
+				3D6959E92C9C898F003DBACB /* MenuBarLabelView.swift in Sources */,
+				3D6959F12C9CDF4E003DBACB /* ColorEXT.swift in Sources */,
 				3D69595F2C989C90003DBACB /* PomodoroMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +325,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PomodoroMenu/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +354,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PomodoroMenu/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
